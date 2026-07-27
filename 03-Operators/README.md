@@ -17,9 +17,9 @@ An operator is a symbol that performs an operation on one or more operands.
 
 ## Arithmetic Operators
 
-+  Addition
++ Addition
 
--  Subtraction
+- Subtraction
 
 *  Multiplication
 

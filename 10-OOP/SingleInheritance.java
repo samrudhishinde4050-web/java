@@ -1,7 +1,7 @@
 class Animal {
 
-    void eat() {
-        System.out.println("Animal Eats");
+    void sound() {
+        System.out.println("Animal makes sound");
     }
 
 }
@@ -9,28 +9,19 @@ class Animal {
 class Dog extends Animal {
 
     void bark() {
-        System.out.println("Dog Barks");
+        System.out.println("Dog barks");
     }
 
 }
 
-class Puppy extends Dog {
-
-    void weep() {
-        System.out.println("Puppy Weeps");
-    }
-
-}
-
-public class MultilevelInheritance {
+public class SingleInheritance {
 
     public static void main(String[] args) {
 
-        Puppy p = new Puppy();
+        Dog d = new Dog();
 
-        p.eat();
-        p.bark();
-        p.weep();
+        d.sound();
+        d.bark();
 
     }
 

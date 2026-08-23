@@ -1,0 +1,22 @@
+abstract class Shape {
+
+    abstract void draw();
+}
+
+class Circle extends Shape {
+
+    @Override
+    void draw() {
+        System.out.println("Drawing Circle.");
+    }
+}
+
+public class AbstractMethod {
+
+    public static void main(String[] args) {
+
+        Circle circle = new Circle();
+
+        circle.draw();
+    }
+}

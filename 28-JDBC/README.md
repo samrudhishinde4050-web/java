@@ -21,5 +21,4 @@ JDBC is used to connect a Java application with a database such as MySQL and per
 ├── PreparedStatementExample.java
 ├── ResultSetExample.java
 ├── StudentDatabase.java
-├── InterviewQuestions.md
-└── PracticePrograms.md
+
